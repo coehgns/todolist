@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+.wrapper .inputField{
+    display: flex;  
+    margin: 5px auto 20px ; 
+    height: 45px;
+    width: 600px;
+    font-family:'Hi Melody', cursive;
+    border: solid blue;
+    border-radius: 6px;
+}
+.inputField input{
+    color: black;
+    padding-left: 15px;
+    width: 600px;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;  
+}
+.inputField button{
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #0064FF;
+    color: white;
+}
+.wrapper .Todolist{
+    display: flex;
+}
+.Todolist li{
+    width: 650px;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 9px;
+    text-indent: 15px; 
+    background-color: #46aaf4;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
